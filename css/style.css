@@ -1,0 +1,138 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+
+}
+
+li a {
+    text-decoration: none;
+}
+
+.title-link {
+    text-decoration: none;
+}
+
+a.active {
+    color: #0d6efd;
+}
+
+
+
+/* Carousel */
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+}
+
+#carIndicators.active {
+    background-color: #0d6efd;
+
+}
+
+/* For background-color of service contents and client contents */
+.servicepage-background,
+.clientspage-background {
+    background-color: #f2f4fe;
+}
+
+/* For footer */
+.infopage-background {
+    background-color: #33374b;
+}
+
+
+
+
+/* For cards in Home page */
+.card {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 50px;
+
+}
+
+/* for image in About page */
+.customshape-img {
+    transform: skew(-5deg);
+    padding: 0%;
+    margin: 0%;
+}
+
+/* For Images */
+.aboutImg,
+.linkImg {
+    object-fit: cover;
+
+}
+
+
+/*For form input */
+
+
+textarea {
+    height: 200px;
+    background-color: #cacbd1;
+}
+
+input {
+    background-color: #cacbd1;
+}
+
+
+
+/* For responsive design */
+
+@media(max-width:576px) {
+
+    #aboutImg {
+
+        height: 120px;
+        width: 240px;
+    }
+
+    .linkImg {
+        height: 150px;
+        object-fit: cover;
+    }
+
+
+    html {
+        font-size: 10px;
+    }
+
+    .carousel {
+        height: 200px;
+    }
+
+    .carousel-item img {
+        height: 200px;
+    }
+
+    #clients {
+        width: 50%;
+        flex-wrap: nowrap;
+
+    }
+
+
+
+}
+
+/* Images in project catagoery */
+
+
+.col img {
+    object-fit: cover;
+    width: 100%;
+
+
+}
